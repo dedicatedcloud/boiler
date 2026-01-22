@@ -3,14 +3,6 @@ RewriteCond %{HTTPS} !=on
 RewriteRule ^(.*)$ https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301,NE]
 Header always set Content-Security-Policy "upgrade-insecure-requests;"
 
-Redirect 301 /html网站模板/ https://htmlboilerplates.com/
-Redirect 301 /html網站樣板/ https://htmlboilerplates.com/
-Redirect 301 /alien-html/ https://htmlboilerplates.com/
-Redirect 301 /modele-html/ https://htmlboilerplates.com/
-Redirect 301 /HTMLのテンプレート/ https://htmlboilerplates.com/
-Redirect 301 /HTMLのテンプレート https://htmlboilerplates.com/
-Redirect 301 /HTML%E3%81%AE%E3%83%86%E3%83%B3%E3%83%97%E3%83%AC%E3%83%BC%E3%83%88/ https://htmlboilerplates.com/
-
 # BEGIN cPanel-generated php ini directives, do not edit
 # Manual editing of this file may result in unexpected behavior.
 # To make changes to this file, use the cPanel MultiPHP INI Editor (Home >> Software >> MultiPHP INI Editor)
